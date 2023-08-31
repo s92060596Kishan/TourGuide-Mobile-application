@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Tourguide</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">SIGN UP</string>
+    <string name="fullname">Fullname</string>
+    <string name="Fullname">Fullname</string>
+    <string name="email">Email</string>
+    <string name="Signup">REGISTER</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="Register">You don\'t have any account click. <u>Register</u></string>
+    <string name="title_profile">profile</string>
+    <string name="title_about">about</string>
+    <string name="title_home">home</string>
+    <string name="title_map">map</string>
+    <string name="western_province">Western Province</string>
+    <string name="eastern_province">Eastern Province</string>
+    <string name="northern_province">Northern Province</string>
+    <string name="southern_province">Southern Province</string>
+    <string name="central_province">Central Province</string>
+    <string name="north_central_province">North Central Province</string>
+    <string name="north_western_province">North Western Province</string>
+    <string name="sabaragamuwa_province">Sabaragamuwa Province</string>
+    <string name="uva_province">Uva Province</string>
+    <string name="already_have_a_acoount_login">Already have a Acoount?</string>
+    <string name="loginhere"><u>Login </u></string>
+    <string name="text">
+    Sri Lanka is an island country in South Asia, located in the Indian Ocean. It is known for its rich history, diverse culture, beautiful landscapes, and sandy beaches. Sri Lanka has a population of over 22 million people, and its capital city is Colombo.
+    </string>
+    <string name="text1">
+    Sri Lanka tourism has been growing rapidly in recent years, with tourists attracted to its natural beauty, cultural heritage, and wildlife. The country offers a wide range of activities for tourists, including visiting ancient temples, exploring national parks, surfing, diving, and enjoying delicious local cuisine.
+    </string>
+    <string name="text2">
+    Sri Lanka is home to many UNESCO World Heritage Sites, including the ancient city of Polonnaruwa, the Sigiriya rock fortress, and the Temple of the Tooth in Kandy. The country also has several national parks, such as Yala National Park, which is home to leopards, elephants, and other wildlife.
+    </string>
+    <string name="text3">
+    In addition to its natural and cultural attractions, Sri Lanka is also known for its hospitality and friendly people. Tourism is an important industry for the country, providing employment opportunities and contributing to the economy.
+    </string>
+    <string name="Email">Email</string>
+    <string name="galle_face_details">Galle Face Beach is a popular recreational area located in Colombo, the capital city of Sri Lanka. It stretches along the coast of the Indian Ocean and is known for its beautiful sandy beach and scenic views.
+
+        Here are some key points about Galle Face Beach:
+
+        Location: Galle Face Beach is situated in the heart of Colombo, adjacent to the Galle Face Green, a large open space facing the ocean. It is easily accessible and a prominent landmark in the city.
+
+        History: Galle Face Beach has a long history and was originally used by the Dutch colonial rulers for various activities, including horse racing. It later became a popular spot for the British colonial elite, who would gather here for leisurely strolls and picnics.
+
+        Recreational Activities: The beach offers a range of recreational activities for both locals and tourists. Visitors can enjoy walking along the sandy shores, flying kites, playing beach sports like cricket and volleyball, and indulging in various water sports such as swimming and surfing.
+
+        Sunset Views: Galle Face Beach is particularly renowned for its breathtaking sunset views. Many people gather here in the evenings to witness the mesmerizing sunset over the Indian Ocean. It\'s a picturesque sight that attracts photographers, couples, and families alike.
+
+        Nearby Attractions: Galle Face Beach is in close proximity to several other attractions in Colombo. These include the Galle Face Green, which is a popular park for leisure activities, the Galle Face Hotel, one of the oldest and most iconic hotels in Sri Lanka, and the National Museum of Colombo, which showcases the island\'s rich history and cultural heritage.
+
+        Safety and Facilities: Galle Face Beach has lifeguards stationed along the shoreline to ensure the safety of swimmers. The beach area also has public washrooms and seating areas for visitors to relax and enjoy the surroundings.</string>
+
+</resources>

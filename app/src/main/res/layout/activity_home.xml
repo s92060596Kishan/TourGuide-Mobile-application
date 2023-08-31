@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="?attr/actionBarSize"
+        >
+
+        <GridLayout
+            android:id="@+id/provinces_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?attr/actionBarSize"
+            android:columnCount="2"
+            android:rowCount="9">
+
+            <!-- Row 1 -->
+            <ImageView
+                android:id="@+id/western_province_image"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/western_province_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/western_province_text"
+                android:layout_width="402dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/western_province"
+                android:textColor="#FF0000" />
+
+            <!-- Row 2 -->
+            <ImageView
+                android:id="@+id/eastern_province_image"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eastern_province_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/eastern_province_text"
+                android:layout_width="394dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/eastern_province"
+                android:textColor="#FF0000" />
+
+            <!-- Row 3 -->
+            <ImageView
+                android:id="@+id/northern_province_image"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/northern_province_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/northern_province_text"
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/northern_province"
+                android:textColor="#FF0000" />
+
+            <!-- Row 4 -->
+            <ImageView
+                android:id="@+id/southern_province_image"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/southern_province_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/southern_province_text"
+                android:layout_width="398dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/southern_province"
+                android:textColor="#FF0000" />
+
+            <!-- Row 5 -->
+            <ImageView
+                android:id="@+id/central_province_image"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/central_province_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/central_province_text"
+                android:layout_width="394dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/central_province"
+                android:textColor="#FF0000" />
+
+            <!-- Row 6 -->
+            <ImageView
+                android:id="@+id/northcentral_province_image"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/northcentral_province_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/northcentral_province_text"
+                android:layout_width="388dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/north_central_province"
+                android:textColor="#FF0000" />
+
+            <!-- Row 7 -->
+            <ImageView
+                android:id="@+id/northwestern_province_image"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/northwestern_province_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/northwestern_province_text"
+                android:layout_width="396dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/north_western_province"
+                android:textColor="#FF0000" />
+
+            <!-- Row 8-->
+            <ImageView
+                android:id="@+id/sabaragamuwa_province_image"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sabaragamuwa_province_image" />
+
+            <TextView
+                android:id="@+id/sabaragamuwa_province_text"
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="50dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/sabaragamuwa_province"
+                android:textColor="#FF0000" />
+
+            <!-- Row 9-->
+            <ImageView
+                android:id="@+id/uva_province_image"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/uva_province_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:id="@+id/uva_province_text"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="50dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="Uva Province"
+                android:textColor="#FF0000"
+                tools:ignore="RtlHardcoded" />
+        </GridLayout>
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation_menu"
+        android:background="@color/primary_color"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</RelativeLayout>
+
+
